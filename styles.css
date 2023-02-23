@@ -46,3 +46,30 @@ button {
     color: #3882F6;
 }
 
+.second-section {
+    text-align: center;
+    padding: 24px;
+}
+
+.second-section > .title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info > .text {
+    color: #E5E7EB;
+}
+
+.info {
+    max-width: 200px;
+}
+
