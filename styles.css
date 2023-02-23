@@ -73,3 +73,21 @@ button {
     max-width: 200px;
 }
 
+.third-section {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.third-section > .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-section > .author {
+    display: flex;
+    justify-content: flex-end;
+}
