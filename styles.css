@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
+    background: red;
 }
 
 .header {
@@ -15,9 +16,10 @@ body {
     justify-content: space-between;
 }
 
-.header-links{
+.header > .header-links{
     display: flex;
     gap: 16px;
+    
 }
 
 .logo > img {
@@ -32,7 +34,7 @@ body {
 }
 
 a {
-    color: #E5E7EB;
+    color: black;
     font-size: 18px;
     text-decoration: none;
 }
@@ -51,19 +53,19 @@ a {
 }
 
 .awesome > .title {
-    color: #F9FAF8;
+    color: black;
     font-size: 48px;
     font-weight: 1000;
 }
 
 .awesome > .text {
-    color: #E5E7EB;
+    color: black;
     font-size: 18px;
 }
 
 button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: black;
+    color: red;
     flex-shrink: 0;
     padding: 8px 16px;
     font-family: Roboto, sans-serif;
@@ -74,16 +76,17 @@ button {
 }
 
 .button > button {
-    border-color: #F9FAF8;
+    border-color: red;
 }
 
 .second-section {
     text-align: center;
     padding: 84px;
+    background: red;
 }
 
 .second-section > .title {
-    color: #1F2937;
+    color: black;
     font-size: 36px;
     font-weight: 700;
     display: flex;
@@ -98,7 +101,7 @@ button {
 }
 
 .info > .text {
-    color: #E5E7EB;
+    color: black;
 }
 
 .info {
@@ -106,7 +109,7 @@ button {
 }
 
 .quote {
-    background: #E5E7EB;
+    background: black;
     display: flex;
     flex-direction: column;
     padding: 0 200px;
@@ -116,18 +119,19 @@ button {
     font-size: 24px;
     font-weight: lighter;
     font-style: italic;
-    color: #1F2937;
+    color: red;
 }
 
 .quote > b {
     padding-bottom: 20px;
     padding-right: 10px;
     font-weight: 800;
+    color: red;
     text-align: right;
 }
 
 .fourth-section {
-    background-color: #3882F6;
+    background-color: black;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -137,19 +141,19 @@ button {
 }
 
 .action > .title {
-    color: #F9FAF8;
+    color: red;
     font-weight: 1000;
     font-size: 21px;
 }
 
 .action > .text {
-    color: #E5E7EB;
+    color: red;
     font-size: 14px;
 }
 
 .footer {
-    background-color: #1F2937;
-    color: #E5E7EB;
+    background-color: black;
+    color: red;
     display: flex;
     justify-content: center;
     align-items: center;
